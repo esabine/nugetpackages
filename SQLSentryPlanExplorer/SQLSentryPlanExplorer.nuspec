@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
     <metadata>
         <id>SQLSentryPlanExplorer</id>
-        <version>2.0.0.1</version>
+        <version>2.0.0.2</version>
         <title>SQLSentryPlanExplorer</title>
         <authors>SQLSentry.net</authors>
         <owners>Eric Sabine</owners>
@@ -10,8 +10,9 @@
         <requireLicenseAcceptance>false</requireLicenseAcceptance>
         <description>SQL Sentry Plan Explorer is a FREE tool that improves upon the graphical plan view in SQL Server Management Studio (SSMS) to make query plan analysis more efficient. It is a lightweight standalone app that contains many of the plan analysis features introduced in SQL Sentry v6. It does not require a collector service or database.</description>
         <summary>SQLSentryPlanExplorer</summary>
-		<releaseNotes>Added uninstaller and is-installed check, plus nice error handling; all courtesy of zippy1981</releaseNotes>
+		<releaseNotes>Added icon and improved tags</releaseNotes>
         <copyright>SQLSentry</copyright>
-        <tags>SQLSentryPlanExplorer admin</tags>
+		<iconUrl>https://raw.github.com/esabine/nugetpackages/master/SQLSentryPlanExplorer/sqlsentryplanexplorer.png</iconUrl>
+        <tags>SQLSentryPlanExplorer SQLSentry SQLServer admin</tags>
     </metadata>
 </package>
